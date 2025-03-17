@@ -37,12 +37,12 @@ API_HASH = os.environ.get("API_HASH", "c5bb241f6e3ecf33fe68a444e288de2d")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 # Define the owner's user ID
-OWNER_ID = 6326227068  # Replace with the actual owner's user ID
+OWNER_ID = 1801203400  # Replace with the actual owner's user ID
 
 # Lists to store authorized channels, users, and groups
-authorized_channels = [-1002390273529]
-authorized_users = [6326227068]
-authorized_groups = [-1002390273529]
+authorized_channels = [-1002294455474]
+authorized_users = [1801203400]
+authorized_groups = [-1002294455474]
 
 # Check if a user is authorized
 def is_authorized(user_id: int) -> bool:
